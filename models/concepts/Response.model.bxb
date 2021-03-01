@@ -1,0 +1,17 @@
+structure (Response) {
+  property (joke) {
+    min (Required) max (One) 
+    type (viv.core.Text)
+    visibility (Public)   
+  }
+  property (id) {
+    min (Optional) max (One) 
+    type (viv.core.Text)
+    visibility (Private)
+  }
+  property (status) {
+    min (Optional) max (One)
+    type (viv.core.Text)
+    visibility (Private)
+  }
+}

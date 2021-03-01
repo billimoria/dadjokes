@@ -1,0 +1,7 @@
+action (GetRequest) {
+  // 'Search' type that provides an input and expects results
+  type (Search)
+  description (Request joke action)
+  // Returns a 'Response' to be mapped by 'Response.model.bxb' concept
+  output (Response)
+}

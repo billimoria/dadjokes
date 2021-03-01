@@ -1,0 +1,14 @@
+capsule-info {
+  display-name (Dad Jokes)
+  developer-name (Example Developer)
+  description ("Dad Jokes capsule")
+  dispatch-name (Dad Jokes)
+  // Set your own image for your capsule's icon
+  // icon-asset (images/icons/bixby_launcher.png)
+  icon-asset (images/icons/laugh.png)
+  search-keywords{
+    keyword (dad jokes)
+    keyword (jokes)
+    keyword (puns)
+  }
+}

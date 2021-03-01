@@ -1,0 +1,7 @@
+result-view{
+  match:Response(this)
+  message{
+    template ("#{value(this.joke)}"){
+    }
+  }
+}

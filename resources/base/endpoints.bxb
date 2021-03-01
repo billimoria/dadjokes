@@ -1,0 +1,12 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetRequest) {
+      remote-endpoint (https://icanhazdadjoke.com/) {
+        method (GET)
+        headers {
+          header (Accept: application/json)
+        }
+      }
+    }
+  }
+}
